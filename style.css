@@ -579,16 +579,16 @@ ul { list-style: none; margin: 0; padding: 0; }
   max-width: 100%;
 }
 .timeline-item.lotte-item .timeline-period {
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 .timeline-item.lotte-item .timeline-company {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 .timeline-item.lotte-item .timeline-role {
-  font-size: 1.125rem;
+  font-size: 1rem;
 }
 .timeline-item.lotte-item .timeline-desc {
-  font-size: 1.125rem;
+  font-size: 1rem;
 }
 
 /* ===== Value ===== */
