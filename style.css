@@ -125,7 +125,7 @@ ul { list-style: none; margin: 0; padding: 0; }
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 5rem 1.5rem 4rem;
+  padding: 3.5rem 1.5rem 2.5rem;
   position: relative;
   z-index: 1;
   background: linear-gradient(180deg, var(--white) 0%, var(--cream) 100%);
@@ -144,7 +144,7 @@ ul { list-style: none; margin: 0; padding: 0; }
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  gap: 3rem;
+  gap: 2rem;
   max-width: 1000px;
   margin: 0 auto;
   width: 100%;
@@ -190,7 +190,7 @@ ul { list-style: none; margin: 0; padding: 0; }
   font-weight: 800;
   line-height: 1.28;
   color: var(--black);
-  margin: 0 0 1.25rem;
+  margin: 0 0 0.9rem;
   letter-spacing: -0.02em;
 }
 .no-break { white-space: nowrap; }
@@ -198,7 +198,7 @@ ul { list-style: none; margin: 0; padding: 0; }
 .hero-desc {
   font-size: 1rem;
   color: var(--gray-600);
-  margin: 0 0 2rem;
+  margin: 0 0 1.25rem;
 }
 .btn-primary {
   display: inline-block;
@@ -245,7 +245,7 @@ ul { list-style: none; margin: 0; padding: 0; }
 
 /* ===== Section common ===== */
 .section {
-  padding: 4.5rem 1.5rem;
+  padding: 2.5rem 1.5rem;
   position: relative;
   z-index: 1;
 }
@@ -260,7 +260,7 @@ ul { list-style: none; margin: 0; padding: 0; }
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: var(--gray-500);
-  margin-bottom: 2rem;
+  margin-bottom: 1.25rem;
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -273,14 +273,14 @@ ul { list-style: none; margin: 0; padding: 0; }
 /* ===== About ===== */
 .about { background: var(--white); }
 .about .container { max-width: 880px; }
-.about-grid { display: grid; gap: 2.5rem; }
+.about-grid { display: grid; gap: 1.5rem; }
 .about-lead {
   font-size: 1.1rem;
   color: var(--black);
   margin-bottom: 1.25rem;
 }
 .about-text p {
-  margin: 0 0 1rem;
+  margin: 0 0 0.75rem;
   color: var(--gray-600);
 }
 .about-text p:last-child { margin-bottom: 0; }
@@ -291,7 +291,7 @@ ul { list-style: none; margin: 0; padding: 0; }
   gap: 1rem;
 }
 .highlight-card {
-  padding: 1.5rem;
+  padding: 1.25rem;
   background: var(--cream);
   border-radius: var(--radius);
   border: 1px solid var(--gray-200);
@@ -320,14 +320,14 @@ ul { list-style: none; margin: 0; padding: 0; }
 .lotte {
   background: var(--cream);
   color: var(--black);
-  padding: 5rem 1.5rem;
+  padding: 2.5rem 1.5rem;
 }
 .lotte-wrap {
   max-width: 960px;
   margin: 0 auto;
 }
 .lotte-header {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 .lotte-title {
   font-family: var(--font-display);
@@ -354,19 +354,19 @@ ul { list-style: none; margin: 0; padding: 0; }
 .lotte-lead {
   font-size: 1.05rem;
   color: var(--gray-600);
-  margin-bottom: 2.5rem;
-  padding-bottom: 2rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.25rem;
   border-bottom: 2px solid var(--gray-200);
 }
 
 .lotte-blocks {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1.5rem;
-  margin-bottom: 3rem;
+  gap: 1rem;
+  margin-bottom: 1.75rem;
 }
 .lotte-block {
-  padding: 1.75rem;
+  padding: 1.25rem;
   background: var(--white);
   border-radius: var(--radius);
   border: 1px solid var(--gray-200);
@@ -410,14 +410,14 @@ ul { list-style: none; margin: 0; padding: 0; }
 }
 
 .lotte-problem {
-  margin-bottom: 3rem;
+  margin-bottom: 1.75rem;
 }
 .lotte-section-head {
   font-family: var(--font-display);
   font-size: 1.05rem;
   font-weight: 700;
   color: var(--black);
-  margin: 0 0 1.25rem;
+  margin: 0 0 0.75rem;
 }
 .problem-grid {
   display: grid;
@@ -426,7 +426,7 @@ ul { list-style: none; margin: 0; padding: 0; }
   align-items: start;
 }
 .problem-col {
-  padding: 1.5rem;
+  padding: 1.25rem;
   background: var(--white);
   border-radius: var(--radius);
   border: 1px solid var(--gray-200);
@@ -445,7 +445,7 @@ ul { list-style: none; margin: 0; padding: 0; }
   margin-bottom: 0.4rem;
 }
 .problem-detail-item {
-  margin-bottom: 1.25rem;
+  margin-bottom: 0.9rem;
 }
 .problem-detail-item:last-child { margin-bottom: 0; }
 .problem-detail-title {
@@ -471,8 +471,8 @@ ul { list-style: none; margin: 0; padding: 0; }
 }
 
 .lotte-analysis {
-  margin-bottom: 3rem;
-  padding: 1.75rem 2rem;
+  margin-bottom: 1.75rem;
+  padding: 1.25rem 1.5rem;
   background: var(--white);
   color: var(--black);
   border-radius: var(--radius);
@@ -503,11 +503,11 @@ ul { list-style: none; margin: 0; padding: 0; }
 .results-stats {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 1rem;
-  margin-bottom: 1.5rem;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
 }
 .stat-item {
-  padding: 1.25rem;
+  padding: 1rem;
   background: var(--white);
   border-radius: var(--radius);
   border: 1px solid var(--gray-200);
@@ -548,7 +548,7 @@ ul { list-style: none; margin: 0; padding: 0; }
 }
 .timeline-item {
   position: relative;
-  padding-bottom: 2.5rem;
+  padding-bottom: 1.5rem;
 }
 .timeline-item:last-child { padding-bottom: 0; }
 .timeline-marker {
@@ -611,7 +611,7 @@ ul { list-style: none; margin: 0; padding: 0; }
   background: var(--cream);
   border: 1px solid var(--gray-200);
   border-radius: var(--radius);
-  padding: 1.5rem 1.75rem;
+  padding: 1.25rem 1.5rem;
   margin-left: -0.25rem;
   box-shadow: var(--shadow-sm);
   width: fit-content;
@@ -639,10 +639,10 @@ ul { list-style: none; margin: 0; padding: 0; }
 .value-cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
+  gap: 1rem;
 }
 .value-card {
-  padding: 1.75rem;
+  padding: 1.25rem;
   background: var(--white);
   border-radius: var(--radius);
   border: 1px solid var(--gray-200);
@@ -673,7 +673,7 @@ ul { list-style: none; margin: 0; padding: 0; }
 /* ===== Skills ===== */
 .skills { background: var(--white); }
 .skills .section-title { color: var(--gray-500); }
-.skills-wrap { display: flex; flex-direction: column; gap: 2rem; }
+.skills-wrap { display: flex; flex-direction: column; gap: 1.25rem; }
 .skill-group h4 {
   font-size: 0.85rem;
   font-weight: 600;
@@ -706,10 +706,10 @@ ul { list-style: none; margin: 0; padding: 0; }
 .edu-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1.5rem;
+  gap: 1rem;
 }
 .edu-card {
-  padding: 1.75rem;
+  padding: 1.25rem;
   background: var(--white);
   border-radius: var(--radius);
   border: 1px solid var(--gray-200);
@@ -760,7 +760,7 @@ ul { list-style: none; margin: 0; padding: 0; }
 .contact-detail {
   font-size: 0.95rem;
   color: var(--gray-600);
-  margin: 0 0 1.5rem;
+  margin: 0 0 1rem;
 }
 .contact-links {
   display: flex;
@@ -808,7 +808,7 @@ ul { list-style: none; margin: 0; padding: 0; }
   .hero-wrap { flex-direction: column; gap: 1.5rem; text-align: center; }
   .hero-wrap .hero-label { justify-content: center; }
   .hero-photo { width: 220px; }
-  .hero { padding: 4rem 1.25rem 3rem; }
+  .hero { padding: 2.5rem 1.25rem 2rem; }
   .lotte-blocks { grid-template-columns: 1fr; }
   .problem-grid { grid-template-columns: 1fr; }
   .problem-arrow { display: none; }
