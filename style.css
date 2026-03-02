@@ -162,6 +162,19 @@ ul { list-style: none; margin: 0; padding: 0; }
   object-fit: cover;
   box-shadow: 0 8px 32px rgba(0,0,0,0.1);
 }
+/* hr 페이지 전용: 프로필 사진 비율·크기 조정 (세로형 포트레이트) */
+.hero--hr .hero-wrap {
+  gap: 3rem;
+}
+.hero--hr .hero-photo {
+  width: 240px;
+}
+.hero--hr .hero-photo img {
+  max-height: 300px;
+  width: 100%;
+  object-fit: cover;
+  object-position: top center;
+}
 .hero-inner {
   flex: 1;
   min-width: 0;
@@ -822,6 +835,9 @@ ul { list-style: none; margin: 0; padding: 0; }
   .hero-wrap { flex-direction: column; gap: 1.5rem; text-align: center; }
   .hero-wrap .hero-label { justify-content: center; }
   .hero-photo { width: 220px; }
+  .hero--hr .hero-wrap { gap: 2.25rem; }
+  .hero--hr .hero-photo { width: 210px; }
+  .hero--hr .hero-photo img { max-height: 260px; }
   .hero { padding: 2.5rem 1.25rem 2rem; }
   .lotte-blocks { grid-template-columns: 1fr; }
   .problem-grid { grid-template-columns: 1fr; }
